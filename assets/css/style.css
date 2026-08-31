@@ -1,0 +1,382 @@
+/* ===================================================================
+   Medisky Lifesciences — clinical reference / formulary aesthetic
+   Type: Space Grotesk (display) + IBM Plex Sans (body/data)
+   =================================================================== */
+
+:root{
+  --navy: #142A3A;
+  --navy-soft: #24435A;
+  --blue: #2C97D6;
+  --blue-deep: #1E6C9E;
+  --green: #56A244;
+  --amber: #C9821E;
+  --bg: #F6F9FA;
+  --paper: #FFFFFF;
+  --ink: #1B2A33;
+  --ink-soft: #4B5C66;
+  --line: #DDE6EA;
+  --line-strong: #B9C7CD;
+  --rx: #B23A3A;
+  --radius: 4px;
+}
+
+*{box-sizing:border-box;}
+
+html{scroll-behavior:smooth;}
+
+body{
+  background:var(--bg);
+  color:var(--ink);
+  font-family:"IBM Plex Sans", -apple-system, Segoe UI, sans-serif;
+  font-size:16px;
+  line-height:1.65;
+  -webkit-font-smoothing:antialiased;
+}
+
+h1,h2,h3,h4,.font-display{
+  font-family:"Space Grotesk", "IBM Plex Sans", sans-serif;
+  color:var(--navy);
+  font-weight:600;
+  line-height:1.15;
+  letter-spacing:-0.01em;
+}
+
+a{color:var(--blue-deep); text-decoration:none;}
+a:hover{color:var(--navy);}
+
+.container-xl{max-width:1180px;}
+
+p{max-width:62ch;}
+p.wide{max-width:none;}
+
+/* ---------- Header ---------- */
+.site-header{
+  background:var(--paper);
+  border-bottom:1px solid var(--line);
+  position:sticky;
+  top:0;
+  z-index:1000;
+}
+.site-header .navbar-brand img{height:38px;}
+.top-strip{
+  background:var(--navy);
+  color:#CFE3EE;
+  font-size:0.82rem;
+  padding:6px 0;
+}
+.top-strip a{color:#CFE3EE;}
+.top-strip a:hover{color:#fff;}
+.site-header .nav-link{
+  color:var(--ink);
+  font-weight:500;
+  font-size:0.96rem;
+  padding:0.5rem 1rem !important;
+}
+.site-header .nav-link.active,
+.site-header .nav-link:hover{color:var(--blue-deep);}
+.btn-brand{
+  background:var(--blue);
+  border:1px solid var(--blue);
+  color:#fff;
+  font-weight:600;
+  border-radius:var(--radius);
+  padding:0.55rem 1.3rem;
+}
+.btn-brand:hover{background:var(--blue-deep); border-color:var(--blue-deep); color:#fff;}
+.btn-outline-brand{
+  border:1px solid var(--navy);
+  color:var(--navy);
+  font-weight:600;
+  border-radius:var(--radius);
+  padding:0.55rem 1.3rem;
+  background:transparent;
+}
+.btn-outline-brand:hover{background:var(--navy); color:#fff;}
+
+/* ---------- Hero ---------- */
+.hero{
+  padding:64px 0 56px;
+  border-bottom:1px solid var(--line);
+}
+.hero .eyebrow{
+  color:var(--blue-deep);
+  font-weight:600;
+  font-size:0.95rem;
+  margin-bottom:0.75rem;
+}
+.hero h1{
+  font-size:clamp(2.1rem, 3.6vw, 3.1rem);
+  max-width:14ch;
+}
+.hero .lede{
+  font-size:1.1rem;
+  color:var(--ink-soft);
+  margin-top:1.1rem;
+  max-width:48ch;
+}
+.hero-stats{
+  margin-top:2.2rem;
+  border-top:1px solid var(--line);
+  padding-top:1.3rem;
+}
+.hero-stats .stat-num{
+  font-family:"Space Grotesk", sans-serif;
+  font-size:1.7rem;
+  font-weight:600;
+  color:var(--navy);
+  display:block;
+}
+.hero-stats .stat-label{
+  font-size:0.85rem;
+  color:var(--ink-soft);
+}
+.hero-visual{
+  border:1px solid var(--line);
+  border-radius:6px;
+  overflow:hidden;
+  background:var(--paper);
+}
+.hero-visual img{width:100%; display:block;}
+
+/* ---------- Section scaffolding ---------- */
+.section{padding:60px 0;}
+.section-head{
+  display:flex;
+  justify-content:space-between;
+  align-items:flex-end;
+  gap:2rem;
+  margin-bottom:2rem;
+  border-bottom:1px solid var(--line-strong);
+  padding-bottom:1rem;
+}
+.section-head h2{font-size:1.7rem; margin:0;}
+.section-num{
+  font-family:"Space Grotesk", sans-serif;
+  color:var(--line-strong);
+  font-size:0.9rem;
+  font-weight:600;
+}
+.section-alt{background:var(--paper); border-top:1px solid var(--line); border-bottom:1px solid var(--line);}
+
+/* ---------- Therapeutic index (table-of-contents style) ---------- */
+.tindex-row{
+  display:flex;
+  align-items:center;
+  gap:1.5rem;
+  padding:1.15rem 0;
+  border-bottom:1px solid var(--line);
+  text-decoration:none;
+  color:inherit;
+}
+.tindex-row:hover{background:rgba(44,151,214,0.05);}
+.tindex-row:first-child{border-top:1px solid var(--line);}
+.tindex-code{
+  font-family:"Space Grotesk", sans-serif;
+  font-weight:600;
+  color:var(--blue-deep);
+  width:2.6rem;
+  flex-shrink:0;
+}
+.tindex-body{flex:1; min-width:0;}
+.tindex-body h3{font-size:1.1rem; margin:0 0 0.2rem;}
+.tindex-body p{margin:0; font-size:0.92rem; color:var(--ink-soft);}
+.tindex-tag{
+  font-size:0.78rem;
+  color:var(--ink-soft);
+  border:1px solid var(--line-strong);
+  border-radius:3px;
+  padding:0.2rem 0.55rem;
+  white-space:nowrap;
+}
+.tindex-arrow{color:var(--line-strong); flex-shrink:0;}
+.tindex-row:hover .tindex-arrow{color:var(--blue-deep);}
+
+/* ---------- Product formulary list ---------- */
+.plist-row{
+  display:grid;
+  grid-template-columns:96px 1.4fr 1fr auto;
+  gap:1.5rem;
+  align-items:center;
+  padding:1.3rem 0;
+  border-bottom:1px solid var(--line);
+  color:inherit;
+  text-decoration:none;
+}
+.plist-row:first-child{border-top:1px solid var(--line-strong);}
+.plist-thumb{
+  width:96px; height:72px;
+  border:1px solid var(--line);
+  border-radius:3px;
+  overflow:hidden;
+  background:#fff;
+}
+.plist-thumb img{width:100%; height:100%; object-fit:cover; object-position:top;}
+.plist-name{font-size:1.2rem; margin:0 0 0.15rem; color:var(--navy);}
+.plist-row:hover .plist-name{color:var(--blue-deep);}
+.plist-generic{font-size:0.85rem; color:var(--ink-soft); font-style:italic; margin:0;}
+.plist-use{font-size:0.9rem; color:var(--ink-soft); margin:0;}
+.plist-cta{
+  font-size:0.88rem;
+  font-weight:600;
+  color:var(--blue-deep);
+  white-space:nowrap;
+}
+.rx-flag{
+  display:inline-block;
+  font-family:"Space Grotesk", sans-serif;
+  font-weight:600;
+  font-size:0.72rem;
+  color:var(--rx);
+  border:1px solid var(--rx);
+  border-radius:3px;
+  padding:0.05rem 0.4rem;
+  margin-left:0.5rem;
+  vertical-align:middle;
+}
+
+/* ---------- Category pills ---------- */
+.cat-pill{
+  display:inline-block;
+  font-size:0.78rem;
+  font-weight:600;
+  padding:0.25rem 0.65rem;
+  border-radius:3px;
+  background:rgba(44,151,214,0.1);
+  color:var(--blue-deep);
+  margin-bottom:0.9rem;
+}
+
+/* ---------- Data / spec table ---------- */
+.spec-table{width:100%; border-collapse:collapse; font-size:0.95rem;}
+.spec-table th, .spec-table td{
+  text-align:left;
+  padding:0.65rem 0.9rem;
+  border-bottom:1px solid var(--line);
+}
+.spec-table th{
+  font-family:"Space Grotesk", sans-serif;
+  font-weight:600;
+  color:var(--navy);
+  background:#EFF5F8;
+  font-size:0.85rem;
+}
+.spec-table td.num{font-variant-numeric:tabular-nums;}
+
+.dose-block{
+  border-left:2px solid var(--blue);
+  padding:0.2rem 0 0.2rem 1.2rem;
+  margin-bottom:1.4rem;
+}
+.dose-block h4{font-size:0.98rem; margin-bottom:0.4rem;}
+.dose-block ul{margin:0; padding-left:1.1rem;}
+.dose-block li{margin-bottom:0.35rem; color:var(--ink-soft);}
+
+.check-list{list-style:none; padding:0; margin:0;}
+.check-list li{
+  padding:0.55rem 0;
+  border-bottom:1px solid var(--line);
+  padding-left:1.6rem;
+  position:relative;
+  color:var(--ink-soft);
+}
+.check-list li:before{
+  content:"";
+  position:absolute;
+  left:0; top:0.85rem;
+  width:7px; height:7px;
+  background:var(--green);
+  border-radius:50%;
+}
+
+.ref-panel{
+  border:1px solid var(--line);
+  border-radius:6px;
+  overflow:hidden;
+  background:#fff;
+}
+.ref-panel img{width:100%; display:block;}
+.ref-panel-label{
+  font-size:0.8rem;
+  color:var(--ink-soft);
+  padding:0.6rem 0.9rem;
+  border-top:1px solid var(--line);
+  background:#FAFCFD;
+}
+
+/* ---------- Callout / guideline note ---------- */
+.callout{
+  background:#EFF5F8;
+  border-radius:6px;
+  padding:1.4rem 1.6rem;
+  font-size:0.95rem;
+  color:var(--navy-soft);
+}
+.callout strong{color:var(--navy);}
+
+/* ---------- CTA band ---------- */
+.cta-band{
+  background:var(--navy);
+  color:#DCE8EF;
+  padding:56px 0;
+}
+.cta-band h2{color:#fff; font-size:1.9rem; max-width:20ch;}
+.cta-band p{color:#AFC5D2;}
+
+/* ---------- Footer ---------- */
+.site-footer{
+  background:#0F212D;
+  color:#9FB4C0;
+  padding:52px 0 24px;
+  font-size:0.92rem;
+}
+.site-footer h5{
+  color:#fff;
+  font-family:"Space Grotesk", sans-serif;
+  font-size:1rem;
+  margin-bottom:1rem;
+}
+.site-footer a{color:#9FB4C0;}
+.site-footer a:hover{color:#fff;}
+.site-footer .foot-logo{height:34px; margin-bottom:1rem;}
+.site-footer hr{border-color:#28414F; margin:2rem 0 1.2rem;}
+.foot-legal{font-size:0.8rem; color:#6E838F;}
+
+/* ---------- Misc ---------- */
+.divider-line{border-top:1px solid var(--line); margin:0;}
+.breadcrumb-strip{
+  background:var(--paper);
+  border-bottom:1px solid var(--line);
+  padding:14px 0;
+  font-size:0.88rem;
+}
+.breadcrumb-strip a{color:var(--ink-soft);}
+.breadcrumb-strip .current{color:var(--navy); font-weight:600;}
+
+.people-card{
+  border:1px solid var(--line);
+  border-radius:6px;
+  padding:1.6rem;
+  background:#fff;
+}
+.people-card h4{margin-bottom:0.1rem;}
+.people-card .role{color:var(--blue-deep); font-size:0.88rem; font-weight:600; margin-bottom:0.9rem;}
+.people-card .phone{font-family:"Space Grotesk", sans-serif; font-size:1rem; color:var(--navy);}
+
+.info-strip{
+  display:flex;
+  gap:2.5rem;
+  flex-wrap:wrap;
+  padding:1.6rem 0;
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+}
+.info-strip .item{font-size:0.9rem; color:var(--ink-soft);}
+.info-strip .item strong{display:block; color:var(--navy); font-family:"Space Grotesk", sans-serif; font-size:1.3rem; font-weight:600;}
+
+@media (max-width:767px){
+  .plist-row{grid-template-columns:72px 1fr; }
+  .plist-row .plist-cta{grid-column:2/3;}
+  .plist-thumb{width:72px; height:56px;}
+  .section-head{flex-direction:column; align-items:flex-start; gap:0.4rem;}
+  .hero{padding:44px 0 40px;}
+}
