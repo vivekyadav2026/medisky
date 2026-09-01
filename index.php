@@ -8,7 +8,7 @@ include 'includes/header.php';
 <!-- HERO -->
 <section class="hero">
   <div class="container-xl">
-    <div class="row g-5 align-items-center">
+    <div class="row g-4 align-items-start">
       <div class="col-lg-6">
         <div class="eyebrow">Pharmaceutical &amp; Surgical Product Marketing</div>
         <h1>Protein Enhancement, Blood Therapeutics &amp; Surgical Care</h1>
@@ -36,36 +36,30 @@ include 'includes/header.php';
         <div class="hero-visual">
           <div id="heroSlider" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3500">
             <div class="carousel-indicators">
-              <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Glutasky"></button>
-              <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="1" aria-label="Aminosky"></button>
-              <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="2" aria-label="Ferric-CM"></button>
-              <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="3" aria-label="ZincFlow"></button>
-              <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="4" aria-label="Touch-Med"></button>
+              <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Glutasky 20%"></button>
+              <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="1" aria-label="Aminosky-10%"></button>
+              <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="2" aria-label="Touch-Med Nitrile"></button>
+              <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="3" aria-label="Tetravan 500ml"></button>
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <a href="product-lglutasky-plus.php">
-                  <img src="assets/img/lglutasky-box.jpg" alt="L-Glutasky Plus Sachet — Glutamine Supplement with Antioxidants">
+                <a href="product-glutasky.php">
+                  <img src="assets/img/banner-glutasky.jpg?v=<?php echo $asset_ver; ?>" alt="Glutasky 20% L-alanyl-L-glutamine Infusion">
+                </a>
+              </div>
+              <div class="carousel-item">
+                <a href="product-aminosky.php">
+                  <img src="assets/img/banner-aminosky.jpg?v=<?php echo $asset_ver; ?>" alt="Aminosky-10% Amino Acid Infusion with Electrolytes">
                 </a>
               </div>
               <div class="carousel-item">
                 <a href="product-touch-med.php">
-                  <img src="assets/img/touchmed-100pcs.jpg" alt="Touch-Med Nitrile Examination Gloves 100 Pcs">
+                  <img src="assets/img/banner-touchmed.jpg?v=<?php echo $asset_ver; ?>" alt="Touch-Med Nitrile Examination Gloves AQL 1.5">
                 </a>
               </div>
               <div class="carousel-item">
                 <a href="product-tetravan.php">
-                  <img src="assets/img/tetravan-box.jpg" alt="Tetravan 500ml IV Infusion">
-                </a>
-              </div>
-              <div class="carousel-item">
-                <a href="product-ferric-cm.php">
-                  <img src="assets/img/ferriccm-1.jpg" alt="Ferric-CM — Ferric Carboxymaltose Injection">
-                </a>
-              </div>
-              <div class="carousel-item">
-                <a href="product-zincflow.php">
-                  <img src="assets/img/zincflow-1.jpg" alt="ZincFlow — Zinc Chloride Injection">
+                  <img src="assets/img/banner-tetravan.jpg?v=<?php echo $asset_ver; ?>" alt="Tetravan 6% Plasma Volume Expander Infusion">
                 </a>
               </div>
             </div>
@@ -90,56 +84,56 @@ include 'includes/header.php';
     <div class="section-head">
       <h2>Therapeutic Focus &amp; Marketing Portfolio</h2>
     </div>
-    <div class="row g-4">
-      <div class="col-md-6 col-lg-3">
-        <a href="products.php#nutrition" class="tindex-card">
+    <div class="row g-3 g-md-4">
+      <div class="col-6 col-md-6 col-lg-3">
+        <a href="products.php#nutrition" class="tindex-card tindex-card-nutrition">
           <div class="tindex-card-head">
-            <span class="tindex-icon">💪</span>
+            <span class="tindex-icon-badge">💪</span>
+            <span class="tindex-arrow">&#8594;</span>
           </div>
           <h3>Protein Enhancement</h3>
-          <p>Amino acid infusions and glutamine therapy to rebuild protein, maintain nitrogen balance &amp; boost recovery.</p>
+          <p>Parenteral &amp; oral amino acid infusions to rebuild protein &amp; boost ICU recovery.</p>
           <div class="tindex-footer">
-            <span class="tindex-products">Aminosky · Glutasky · L-Glutasky</span>
-            <span class="tindex-arrow">&#8594;</span>
+            <span class="tindex-products">Aminosky · Glutasky</span>
           </div>
         </a>
       </div>
-      <div class="col-md-6 col-lg-3">
-        <a href="products.php#minerals" class="tindex-card">
+      <div class="col-6 col-md-6 col-lg-3">
+        <a href="products.php#minerals" class="tindex-card tindex-card-blood">
           <div class="tindex-card-head">
-            <span class="tindex-icon">🩸</span>
+            <span class="tindex-icon-badge">🩸</span>
+            <span class="tindex-arrow">&#8594;</span>
           </div>
           <h3>Blood Enhancement</h3>
-          <p>3rd gen parenteral iron for rapid anemia correction &amp; plasma volume expanders for blood replacement.</p>
+          <p>3rd gen parenteral iron for anemia &amp; colloid plasma expanders for blood replacement.</p>
           <div class="tindex-footer">
             <span class="tindex-products">Ferric-CM · Tetravan</span>
-            <span class="tindex-arrow">&#8594;</span>
           </div>
         </a>
       </div>
-      <div class="col-md-6 col-lg-3">
-        <a href="products.php#minerals" class="tindex-card">
+      <div class="col-6 col-md-6 col-lg-3">
+        <a href="products.php#minerals" class="tindex-card tindex-card-trace">
           <div class="tindex-card-head">
-            <span class="tindex-icon">⚡</span>
+            <span class="tindex-icon-badge">⚡</span>
+            <span class="tindex-arrow">&#8594;</span>
           </div>
-          <h3>Trace Element Therapy</h3>
-          <p>Injectable zinc chloride for ICU parenteral nutrition support, wound healing &amp; immune defense.</p>
+          <h3>Trace Elements</h3>
+          <p>Injectable zinc chloride for ICU parenteral nutrition, wound healing &amp; immunity.</p>
           <div class="tindex-footer">
             <span class="tindex-products">ZincFlow IP</span>
-            <span class="tindex-arrow">&#8594;</span>
           </div>
         </a>
       </div>
-      <div class="col-md-6 col-lg-3">
-        <a href="products.php#surgical" class="tindex-card">
+      <div class="col-6 col-md-6 col-lg-3">
+        <a href="products.php#surgical" class="tindex-card tindex-card-surgical">
           <div class="tindex-card-head">
-            <span class="tindex-icon">🧤</span>
+            <span class="tindex-icon-badge">🧤</span>
+            <span class="tindex-arrow">&#8594;</span>
           </div>
-          <h3>Surgical Consumables</h3>
-          <p>Certified AQL 1.5 powder-free, latex-free nitrile examination gloves for clinical and surgical protection.</p>
+          <h3>Surgical Supplies</h3>
+          <p>Certified AQL 1.5 powder-free nitrile examination gloves for clinical protection.</p>
           <div class="tindex-footer">
             <span class="tindex-products">Touch-Med Nitrile</span>
-            <span class="tindex-arrow">&#8594;</span>
           </div>
         </a>
       </div>

@@ -21,7 +21,7 @@ include 'includes/header.php';
       </div>
       <div class="col-lg-5">
         <div class="hero-visual">
-          <img src="assets/img/products-banner.jpg" alt="Medisky Lifesciences Product Showcase">
+          <img src="assets/img/products-banner.jpg?v=<?php echo $asset_ver; ?>" alt="Medisky Lifesciences Product Showcase">
         </div>
       </div>
     </div>
