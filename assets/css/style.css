@@ -549,6 +549,13 @@ p.wide{max-width:none;}
   animation: wa-pulse 2.5s infinite;
   transition: all 0.3s ease;
 }
+.floating-wa-btn .wa-icon {
+  width: 22px;
+  height: 22px;
+  fill: #ffffff;
+  display: inline-block;
+  vertical-align: middle;
+}
 .floating-wa-btn:hover {
   background: #1eb853;
   color: #fff;
@@ -1111,8 +1118,11 @@ p.wide{max-width:none;}
     box-shadow: 0 8px 24px rgba(37, 211, 102, 0.55) !important;
   }
   .floating-wa-btn .wa-icon {
-    font-size: 1.6rem !important;
+    width: 26px !important;
+    height: 26px !important;
+    fill: #ffffff !important;
     margin: 0 !important;
+    display: block !important;
   }
 }
 
