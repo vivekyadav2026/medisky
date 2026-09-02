@@ -5,7 +5,7 @@
         <img src="assets/img/logo.png" alt="Medisky Lifesciences" class="foot-logo" style="filter:brightness(0) invert(1);">
         <p style="line-height:1.6; color:#9FB4C0;">Medisky Lifesciences Private Limited markets clinical nutrition, parenteral infusions, iron therapy, and surgical consumables to hospitals, ICU units, and pharmacies across India.</p>
         <div class="mt-3">
-          <a href="https://wa.me/919304827152?text=Hello,%20I%20have%20an%20inquiry" target="_blank" rel="noopener" class="btn btn-sm text-white" style="background:#25D366; font-weight:600; border-radius:20px; padding:6px 16px;">
+          <a href="https://wa.me/919304827152?text=Hello,%20I%20have%20an%20inquiry" target="_blank" rel="noopener" class="btn btn-sm text-white" style="background:#25D366; font-weight:600; border-radius:8px; padding:6px 14px; font-size:0.84rem;">
             💬 WhatsApp Product Enquiry
           </a>
         </div>
