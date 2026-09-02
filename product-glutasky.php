@@ -1,6 +1,6 @@
 <?php
 $page_title = "Glutasky | Medisky Lifesciences Pvt. Ltd.";
-$page_description = "Glutasky — L-alanyl-L-glutamine infusion 20%, for ICU, GI surgery and oncology patients, from Medisky Lifesciences.";
+$page_description = "Glutasky — L-alanyl-L-glutamine infusion 20% w/v, ESPEN-aligned ICU & GI surgery nutrition support from Medisky Lifesciences.";
 $current_page = "products";
 include 'includes/header.php';
 ?>
@@ -11,126 +11,133 @@ include 'includes/header.php';
   </div>
 </div>
 
-<section class="hero" style="padding:28px 0 24px;">
+<!-- HERO BANNER -->
+<section class="hero hero-skyblue" style="padding:36px 0 28px !important;">
   <div class="container-xl">
     <div class="row g-4 align-items-center">
       <div class="col-lg-7">
-        <div class="cat-pill">Parenteral Nutrition</div>
-        <h1 style="max-width:none;">Glutasky<span class="rx-flag">Rx</span></h1>
-        <p class="lede" style="max-width:none; font-style:italic; color:var(--navy-soft); margin-top:0.4rem;">L-alanyl-L-glutamine infusion 20% w/v</p>
-        <p class="lede" style="max-width:none;"><strong>Enhance Recovery &amp; Optimize Nutrition...</strong><br>GLUTASKY (L-Alanyl L-Glutamine) is a synthetic glutamine dipeptide administered alone or along with total parenteral nutrition (TPN) in patients.</p>
+        <span class="badge bg-white text-primary fw-bold px-3 py-1 rounded-pill mb-2" style="font-size:0.75rem;">PARENTERAL NUTRITION</span>
+        <h1 style="max-width:none; color:#ffffff !important; font-size:2.4rem; margin-bottom:0.4rem;">Glutasky <span class="rx-flag">Rx</span></h1>
+        <p class="lede" style="max-width:none; font-style:italic; color:rgba(255,255,255,0.95) !important; margin-bottom:0.6rem;">L-alanyl-L-glutamine infusion 20% w/v (50 ml container)</p>
+        <p class="lede" style="max-width:none; color:rgba(255,255,255,0.9) !important; font-size:1rem;"><strong>Essential Dipeptide Supplementation for Critical Care &amp; GI Surgery</strong><br>Reduces oxidative stress, maintains intestinal mucosa integrity, and accelerates ICU recovery as per ESPEN clinical nutrition guidelines.</p>
+        <div class="d-flex gap-3 mt-3 flex-wrap">
+          <a href="https://wa.me/919304827152?text=Hello,%20I%20want%20to%20enquire%20about%20hospital%20supply%20for%20Glutasky" target="_blank" rel="noopener" class="btn-brand py-2 px-4" style="background:#25D366; color:#ffffff; border-color:#25D366;">Inquire on WhatsApp 💬</a>
+          <a href="products.php" class="btn-outline-brand py-2 px-3" style="color:#ffffff; border-color:rgba(255,255,255,0.6);">&#8592; Back to All Products</a>
+        </div>
       </div>
       <div class="col-lg-5">
-        <div class="ref-panel">
-          <img src="assets/img/glutasky-1.jpg" alt="Glutasky — product reference sheet">
-          <div class="ref-panel-label">Product reference — Glutasky</div>
+        <div class="p-3 bg-white border rounded-3 shadow-lg text-center" style="max-width:380px; margin:0 auto;">
+          <img src="assets/img/product/product-2.jpeg?v=<?php echo $asset_ver; ?>" alt="Glutasky product packaging" style="max-height:220px; object-fit:contain;" class="img-fluid">
+          <div class="mt-2 text-muted fw-bold small">Product Packaging — Glutasky 20% (50 ml)</div>
         </div>
       </div>
     </div>
   </div>
 </section>
 
-<section class="section" style="padding-top:20px;">
+<!-- MAIN CONTENT -->
+<section class="section" style="padding:40px 0 !important;">
   <div class="container-xl">
-    <div class="row g-5">
+    <div class="row g-4">
       <div class="col-lg-7">
-        <div class="section-head" style="border-bottom:none; margin-bottom:1rem; padding-bottom:0;">
-          <h2>Indications</h2>
-        </div>
-        <ul class="check-list">
-          <li>ICU patients</li>
-          <li>Gastrointestinal surgery patients</li>
-          <li>Pancreatitis patients</li>
-          <li>Severe burn patients</li>
-          <li>Cancer chemotherapy patients</li>
-          <li>Acute and chronic infection</li>
-          <li>Multiple organ dysfunction syndrome</li>
-          <li>Intestinal dysfunction such as enteritis short bowel syndrome</li>
-          <li>Immunodeficiency syndrome such as AIDS</li>
-        </ul>
-
-        <div class="section-head" style="border-bottom:none; margin:2.4rem 0 1rem; padding-bottom:0;">
-          <h2>Clinical Benefits</h2>
-        </div>
-        <div class="row g-3 mb-4">
-          <div class="col-md-6">
-            <div style="background:#e8f4f8; padding:15px; border-radius:6px; height:100%;">
-              <strong>Boost immune system &amp; improve cell metabolism</strong>
+        
+        <!-- Indications -->
+        <div class="p-4 bg-white border rounded-3 shadow-sm mb-4">
+          <h3 class="fw-bold text-navy border-bottom pb-2 mb-3" style="font-size:1.3rem;">Clinical Indications</h3>
+          <div class="row g-2">
+            <div class="col-md-6">
+              <ul class="check-list mb-0">
+                <li>ICU patients requiring parenteral nutrition</li>
+                <li>Post-operative GI surgery recovery</li>
+                <li>Severe burn trauma &amp; injuries</li>
+                <li>Acute pancreatitis support</li>
+              </ul>
             </div>
-          </div>
-          <div class="col-md-6">
-            <div style="background:#e8f4f8; padding:15px; border-radius:6px; height:100%;">
-              <strong>Reduce oxidative stress</strong>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div style="background:#e8f4f8; padding:15px; border-radius:6px; height:100%;">
-              <strong>Preserve metabolic function</strong>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div style="background:#e8f4f8; padding:15px; border-radius:6px; height:100%;">
-              <strong>Demonstrate the immunomodulatory &amp; GI mucosal protective activity</strong>
+            <div class="col-md-6">
+              <ul class="check-list mb-0">
+                <li>Immune system fortification</li>
+                <li>Intestinal mucosal barrier protection</li>
+                <li>Reduction of hospital stay duration</li>
+              </ul>
             </div>
           </div>
         </div>
 
-        <div class="section-head" style="border-bottom:none; margin:2.4rem 0 1rem; padding-bottom:0;">
-          <h2>Dosage &amp; administration</h2>
-        </div>
-        <div class="dose-block">
-          <h4>Dosage</h4>
-          <ul>
-            <li>1.5–2.5 ml of GLUTASKY IV. Per Kg body weight (equivalent to 0.3–0.5 g L-alanyl-L-glutamine/kg body weight)</li>
-            <li>This equates to 100 to 175 ml of GLUTASKY IV. for a patient of 70 kg body weight.</li>
-            <li>Maxm daily dose is 2.5 ml equivalent to 0.5 g L-alanyl-L-glutamine of GLUTASKY IV. /kg body wt.</li>
+        <!-- Mechanism of Action -->
+        <div class="p-4 bg-white border rounded-3 shadow-sm mb-4" style="border-left:4px solid #0284c7 !important;">
+          <h3 class="fw-bold text-navy mb-2" style="font-size:1.3rem;">Key Mechanism &amp; Benefits</h3>
+          <p class="text-muted small mb-3">L-glutamine is an essential conditionally essential amino acid rapidly depleted during critical illness, major surgery, and severe catabolic states.</p>
+          <ul class="check-list mb-0">
+            <li><strong>Mucosal Protection:</strong> Prevents bacterial translocation by maintaining gut mucosal barrier integrity.</li>
+            <li><strong>Antioxidant Boost:</strong> Precursor for glutathione synthesis, fighting oxidative stress and organ failure risks.</li>
+            <li><strong>Nitrogen Balance:</strong> Rebuilds muscle protein reserves and improves overall ICU recovery outcomes.</li>
           </ul>
         </div>
 
-        <div class="dose-block">
-          <h4>Administration</h4>
-          <ul>
-            <li>For peripheral venous infusion, dilute GLUTASKY IV. to an osmolarity &lt; 800 mosmol/L (e.g 50 ml GLUTASKY IV. + 50 ml NaCl)</li>
-            <li><strong>Infusion Rate:</strong> 0.5 ml/minute</li>
-          </ul>
+        <!-- Dosage & Administration -->
+        <div class="p-4 bg-white border rounded-3 shadow-sm mb-4">
+          <h3 class="fw-bold text-navy border-bottom pb-2 mb-3" style="font-size:1.3rem;">Dosage &amp; Administration</h3>
+          <div class="row g-3">
+            <div class="col-md-6">
+              <div class="p-3 bg-light rounded-3 h-100">
+                <strong class="d-block text-navy mb-1">Recommended Dosage</strong>
+                <span class="text-muted small">1.5–2.0 ml Glutasky per kg body weight per day (0.3–0.4 g L-alanyl-L-glutamine / kg body weight).</span>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="p-3 bg-light rounded-3 h-100">
+                <strong class="d-block text-navy mb-1">Infusion Method</strong>
+                <span class="text-muted small">Concentrated 20% solution. Must be co-infused or diluted with a compatible parenteral amino acid or carrier infusion.</span>
+              </div>
+            </div>
+          </div>
         </div>
+
       </div>
 
+      <!-- SIDEBAR -->
       <div class="col-lg-5">
-        <div class="section-head" style="border-bottom:none; margin-bottom:1rem; padding-bottom:0;">
-          <h2>Specifications</h2>
-        </div>
-        <table class="spec-table">
-          <tbody>
-            <tr><td>Composition</td><td>L-alanyl-L-glutamine, 20% w/v</td></tr>
-            <tr><td>Pack size</td><td>50 ml single-dose container</td></tr>
-            <tr><td>Route</td><td>Intravenous, peripheral venous infusion</td></tr>
-            <tr><td>Storage</td><td>Sterile, non-pyrogenic, single-dose container</td></tr>
-          </tbody>
-        </table>
-
-        <div class="why-card mt-4" style="background:#f8fafc;">
-          <h4 style="color:var(--navy); font-size:1.1rem; margin-bottom:0.5rem;">Hospital &amp; Stockist Enquiry</h4>
-          <p style="font-size:0.88rem; color:var(--ink-soft); margin-bottom:1rem;">Request pack insert, trade margin, MRP, or bulk hospital supply details for Glutasky directly on WhatsApp.</p>
-          <a href="https://wa.me/919304827152?text=Hello,%20I%20want%20to%20enquire%20about%20hospital%20supply%20for%20Glutasky" target="_blank" rel="noopener" class="btn-brand text-center d-block" style="background:#25D366; border-color:#25D366; color:#fff;">Inquire on WhatsApp 💬</a>
+        
+        <!-- Specifications Card -->
+        <div class="p-4 bg-white border rounded-3 shadow-sm mb-4">
+          <h3 class="fw-bold text-navy border-bottom pb-2 mb-3" style="font-size:1.2rem;">Product Specifications</h3>
+          <table class="table table-sm table-borderless mb-0" style="font-size:0.88rem;">
+            <tbody>
+              <tr><td class="fw-bold text-navy">Composition</td><td>L-alanyl-L-glutamine 20% w/v (200 mg/ml)</td></tr>
+              <tr><td class="fw-bold text-navy">Pack Size</td><td>50 ml Single-Dose Infusion Container</td></tr>
+              <tr><td class="fw-bold text-navy">Osmolality</td><td>Approx. 921 mOsm/kg</td></tr>
+              <tr><td class="fw-bold text-navy">Route</td><td>IV Co-infusion / Parenteral Nutrition</td></tr>
+              <tr><td class="fw-bold text-navy">Standard</td><td>ESPEN ICU Nutrition Guidelines</td></tr>
+            </tbody>
+          </table>
         </div>
 
-        <div class="ref-panel mt-4">
-          <img src="assets/img/glutasky-2.jpg" alt="Glutasky — clinical detail sheet">
-          <div class="ref-panel-label">Dosage &amp; administration sheet — Glutasky</div>
+        <!-- WhatsApp Enquiry -->
+        <div class="p-4 bg-primary-subtle border border-primary-subtle rounded-3 shadow-sm mb-4 text-center">
+          <h4 class="fw-bold text-navy mb-2" style="font-size:1.1rem;">Hospital &amp; Stockist Inquiry</h4>
+          <p class="text-muted small mb-3">Request prescribing information, MRP, trade margins, or bulk hospital supply terms.</p>
+          <a href="https://wa.me/919304827152?text=Hello,%20I%20want%20to%20enquire%20about%20hospital%20supply%20for%20Glutasky" target="_blank" rel="noopener" class="btn-brand d-block py-2" style="background:#25D366; color:#ffffff; border-color:#25D366;">Enquire on WhatsApp 💬</a>
         </div>
+
+        <!-- Packaging Graphic -->
+        <div class="p-3 bg-white border rounded-3 shadow-sm text-center">
+          <img src="assets/img/glutasky-1.jpg" alt="Glutasky 20% — clinical detail sheet" class="img-fluid rounded mb-2" style="max-height:220px; object-fit:contain;">
+          <div class="text-muted small fw-bold">Glutasky 20% Technical Specification Sheet</div>
+        </div>
+
       </div>
     </div>
   </div>
 </section>
 
+<!-- CTA BAND -->
 <section class="cta-band">
   <div class="container-xl d-flex flex-wrap justify-content-between align-items-center gap-4">
     <div>
-      <h2>Want full prescribing information for Glutasky?</h2>
-      <p>Request the pack insert, MRP and availability from our team on WhatsApp.</p>
+      <h2>Need full prescribing information for Glutasky 20%?</h2>
+      <p>Request pack inserts, COA documentation, and stockist terms from our medical team on WhatsApp.</p>
     </div>
-    <a href="https://wa.me/919304827152?text=Hello,%20I%20have%20an%20inquiry%20about%20Glutasky" target="_blank" rel="noopener" class="btn-brand" style="background:#25D366; color:#fff; border-color:#25D366;">Enquire on WhatsApp</a>
+    <a href="https://wa.me/919304827152?text=Hello,%20I%20have%20an%20inquiry%20about%20Glutasky" target="_blank" rel="noopener" class="btn-brand" style="background:#25D366; color:#fff; border-color:#25D366;">Enquire on WhatsApp 💬</a>
   </div>
 </section>
 

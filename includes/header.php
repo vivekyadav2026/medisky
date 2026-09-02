@@ -71,11 +71,15 @@ $asset_ver = file_exists($css_file) ? filemtime($css_file) : time();
               <li><a class="dropdown-item" href="product-zincflow.php">ZincFlow IP Injection</a></li>
               <li><a class="dropdown-item" href="product-ferric-cm.php">Ferric-CM Injection</a></li>
               <li><a class="dropdown-item" href="product-tetravan.php">Tetravan Colloid Infusion</a></li>
-              <li><a class="dropdown-item" href="product-touch-med.php">Touch-Med Nitrile Gloves</a></li>
+              <li><a class="dropdown-item" href="product-touch-med.php">Touch-Med Nitrile Gloves M-100</a></li>
+              <li><a class="dropdown-item" href="product-touch-med-g30.php">Touch-Med Nitrile Gloves G30</a></li>
             </ul>
           </li>
+          <li class="nav-item"><a class="nav-link <?php echo ($current_page === 'quality') ? 'active' : ''; ?>" href="quality.php">Quality</a></li>
+          <li class="nav-item"><a class="nav-link <?php echo ($current_page === 'vision') ? 'active' : ''; ?>" href="vision-mission.php">Vision &amp; Mission</a></li>
+          <li class="nav-item"><a class="nav-link <?php echo ($current_page === 'infrastructure') ? 'active' : ''; ?>" href="infrastructure.php">Infrastructure</a></li>
           <li class="nav-item"><a class="nav-link <?php echo ($current_page === 'contact') ? 'active' : ''; ?>" href="contact.php">Contact</a></li>
-          <li class="nav-item ms-lg-3"><a class="btn-brand" href="contact.php">Get In Touch</a></li>
+          <li class="nav-item ms-lg-3"><a class="btn-brand py-2 px-3" href="https://wa.me/919304827152?text=Hello,%20I%20have%20an%20inquiry" target="_blank" rel="noopener" style="background:#25D366; border-color:#25D366; color:#ffffff;">WhatsApp Enquiry 💬</a></li>
         </ul>
       </div>
     </div>

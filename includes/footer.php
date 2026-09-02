@@ -17,7 +17,11 @@
           <li class="mb-2"><a href="index.php">Home</a></li>
           <li class="mb-2"><a href="about.php">About Us</a></li>
           <li class="mb-2"><a href="products.php">Product Portfolio</a></li>
+          <li class="mb-2"><a href="vision-mission.php">Vision &amp; Mission</a></li>
+          <li class="mb-2"><a href="quality.php">Quality Standards</a></li>
+          <li class="mb-2"><a href="infrastructure.php">Infrastructure Hubs</a></li>
           <li class="mb-2"><a href="contact.php">Contact Us</a></li>
+          <li class="mb-2"><a href="disclaimer.php">Medical Disclaimer</a></li>
         </ul>
       </div>
       
@@ -30,7 +34,8 @@
           <li class="mb-1"><a href="product-zincflow.php">ZincFlow IP Injection</a></li>
           <li class="mb-1"><a href="product-ferric-cm.php">Ferric-CM Injection</a></li>
           <li class="mb-1"><a href="product-tetravan.php">Tetravan Colloid Infusion</a></li>
-          <li class="mb-1"><a href="product-touch-med.php">Touch-Med Nitrile Gloves</a></li>
+          <li class="mb-1"><a href="product-touch-med.php">Touch-Med Nitrile Gloves M-100</a></li>
+          <li class="mb-1"><a href="product-touch-med-g30.php">Touch-Med Nitrile Gloves G30</a></li>
         </ul>
       </div>
       

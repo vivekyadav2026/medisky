@@ -8,7 +8,7 @@ include 'includes/header.php';
 <!-- HERO -->
 <section class="hero">
   <div class="container-xl">
-    <div class="row g-4 align-items-start">
+    <div class="row g-4 align-items-center">
       <div class="col-lg-6">
         <div class="eyebrow">Pharmaceutical &amp; Surgical Product Marketing</div>
         <h1>Protein Enhancement, Blood Therapeutics &amp; Surgical Care</h1>
@@ -33,44 +33,51 @@ include 'includes/header.php';
         </div>
       </div>
       <div class="col-lg-6">
-        <div class="hero-visual">
-          <div id="heroSlider" class="carousel slide carousel-fade" data-bs-ride="carousel" data-bs-interval="3500">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Glutasky 20%"></button>
-              <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="1" aria-label="Aminosky-10%"></button>
-              <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="2" aria-label="Touch-Med Nitrile"></button>
-              <button type="button" data-bs-target="#heroSlider" data-bs-slide-to="3" aria-label="Tetravan 500ml"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <a href="product-glutasky.php">
-                  <img src="assets/img/banner-glutasky.jpg?v=<?php echo $asset_ver; ?>" alt="Glutasky 20% L-alanyl-L-glutamine Infusion">
-                </a>
-              </div>
-              <div class="carousel-item">
-                <a href="product-aminosky.php">
-                  <img src="assets/img/banner-aminosky.jpg?v=<?php echo $asset_ver; ?>" alt="Aminosky-10% Amino Acid Infusion with Electrolytes">
-                </a>
-              </div>
-              <div class="carousel-item">
-                <a href="product-touch-med.php">
-                  <img src="assets/img/banner-touchmed.jpg?v=<?php echo $asset_ver; ?>" alt="Touch-Med Nitrile Examination Gloves AQL 1.5">
-                </a>
-              </div>
-              <div class="carousel-item">
-                <a href="product-tetravan.php">
-                  <img src="assets/img/banner-tetravan.jpg?v=<?php echo $asset_ver; ?>" alt="Tetravan 6% Plasma Volume Expander Infusion">
-                </a>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#heroSlider" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#heroSlider" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+        <div class="hero-right-img-wrapper">
+          <img src="assets/img/home-banner.jpg?v=<?php echo $asset_ver; ?>" alt="Medisky Lifesciences Clinical Products Portfolio">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- COMPACT CERTIFICATIONS & COMPLIANCE STRIP -->
+<section class="compact-cert-strip">
+  <div class="container-xl">
+    <div class="row g-2 text-center text-md-start">
+      <div class="col-6 col-md-3">
+        <div class="cert-item d-flex align-items-center gap-2 p-2 bg-white border rounded-3 shadow-sm h-100">
+          <span class="cert-icon fs-4">📜</span>
+          <div class="text-start">
+            <strong class="d-block text-navy" style="font-size:0.82rem; line-height:1.2;">ISO 9001 &amp; WHO-GMP</strong>
+            <span class="text-muted" style="font-size:0.72rem;">Certified Manufacturing</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="cert-item d-flex align-items-center gap-2 p-2 bg-white border rounded-3 shadow-sm h-100">
+          <span class="cert-icon fs-4">🧪</span>
+          <div class="text-start">
+            <strong class="d-block text-navy" style="font-size:0.82rem; line-height:1.2;">ESPEN 2022 Aligned</strong>
+            <span class="text-muted" style="font-size:0.72rem;">Clinical Guidelines</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="cert-item d-flex align-items-center gap-2 p-2 bg-white border rounded-3 shadow-sm h-100">
+          <span class="cert-icon fs-4">🛡️</span>
+          <div class="text-start">
+            <strong class="d-block text-navy" style="font-size:0.82rem; line-height:1.2;">US FDA &amp; CE Approved</strong>
+            <span class="text-muted" style="font-size:0.72rem;">Global Compliance</span>
+          </div>
+        </div>
+      </div>
+      <div class="col-6 col-md-3">
+        <div class="cert-item d-flex align-items-center gap-2 p-2 bg-white border rounded-3 shadow-sm h-100">
+          <span class="cert-icon fs-4">🧤</span>
+          <div class="text-start">
+            <strong class="d-block text-navy" style="font-size:0.82rem; line-height:1.2;">AQL 1.5 &amp; ASTM D 6319</strong>
+            <span class="text-muted" style="font-size:0.72rem;">Surgical Standards</span>
           </div>
         </div>
       </div>
@@ -79,10 +86,11 @@ include 'includes/header.php';
 </section>
 
 <!-- THERAPEUTIC INDEX -->
-<section class="section">
+<section class="section" style="background:#f0f8ff; border-bottom:1px solid rgba(2,132,199,0.12); padding:52px 0 !important;">
   <div class="container-xl">
-    <div class="section-head">
-      <h2>Therapeutic Focus &amp; Marketing Portfolio</h2>
+    <div class="section-head mb-4 text-center border-0">
+      <span class="badge bg-primary-subtle text-primary fw-bold px-3 py-1 rounded-pill mb-2" style="font-size:0.75rem;">THERAPEUTIC SPECIALIZATION</span>
+      <h2 style="font-size:1.6rem; color:var(--navy);">Therapeutic Focus &amp; Marketing Portfolio</h2>
     </div>
     <div class="row g-3 g-md-4">
       <div class="col-6 col-md-6 col-lg-3">
@@ -141,16 +149,55 @@ include 'includes/header.php';
   </div>
 </section>
 
-<!-- PRODUCT LIST / PORTFOLIO -->
-<section class="section section-alt" id="portfolio">
+<!-- CLINICAL PHILOSOPHY SECTION (3 CORE PILLARS) -->
+<section class="section medisky-philosophy-section" style="padding:56px 0 !important;">
+  <div class="container-xl">
+    <div class="section-head mb-4 text-center border-0">
+      <span class="badge bg-white text-primary fw-bold px-3 py-1 rounded-pill mb-2" style="font-size:0.75rem;">OUR THREE CORE CLINICAL PILLARS</span>
+      <h2 style="color:#ffffff !important;">Pioneering Excellence in Critical Care, Therapeutics &amp; Surgical Safety</h2>
+    </div>
+    
+    <div class="row g-4">
+      <!-- Card 1: Critical Care Therapeutics -->
+      <div class="col-md-4">
+        <div class="philosophy-card h-100 p-4 rounded-3 shadow-lg" style="background:rgba(0,0,0,0.18); border:1px solid rgba(255,255,255,0.25) !important;">
+          <div class="philosophy-icon-circle mb-3">🧪</div>
+          <h3 class="fw-bold mb-2" style="font-size:1.25rem; color:#ffffff !important;">1. Critical Care Therapeutics</h3>
+          <p class="mb-0" style="color:#ffffff !important; font-size:0.88rem; line-height:1.65; opacity:0.96;">WHO-GMP certified 100% Sorbitol &amp; Xylitol-free amino acid infusions (Aminosky-10%), glutamine dipeptides (Glutasky), and Day 1 ICU trace element zinc infusions (ZincFlow IP) adhering strictly to ESPEN 2022 clinical guidelines.</p>
+        </div>
+      </div>
+
+      <!-- Card 2: Advanced Blood Therapeutics -->
+      <div class="col-md-4">
+        <div class="philosophy-card h-100 p-4 rounded-3 shadow-lg" style="background:rgba(0,0,0,0.18); border:1px solid rgba(255,255,255,0.25) !important;">
+          <div class="philosophy-icon-circle mb-3">🩸</div>
+          <h3 class="fw-bold mb-2" style="font-size:1.25rem; color:#ffffff !important;">2. Advanced Blood Therapeutics</h3>
+          <p class="mb-0" style="color:#ffffff !important; font-size:0.88rem; line-height:1.65; opacity:0.96;">3rd generation dextran-free Ferric Carboxymaltose 500mg (Ferric-CM) for rapid +4.4 g/dL Hb elevation without dextran allergy risks, and 3rd gen HES 6% 130/0.4 colloid (Tetravan) for safe plasma volume expansion.</p>
+        </div>
+      </div>
+
+      <!-- Card 3: Surgical Protection & Logistics -->
+      <div class="col-md-4">
+        <div class="philosophy-card h-100 p-4 rounded-3 shadow-lg" style="background:rgba(0,0,0,0.18); border:1px solid rgba(255,255,255,0.25) !important;">
+          <div class="philosophy-icon-circle mb-3">🧤</div>
+          <h3 class="fw-bold mb-2" style="font-size:1.25rem; color:#ffffff !important;">3. Surgical Protection &amp; Supply</h3>
+          <p class="mb-0" style="color:#ffffff !important; font-size:0.88rem; line-height:1.65; opacity:0.96;">AQL 1.5 certified, powder-free Touch-Med nitrile examination gloves meeting FDA, CE &amp; EN 455 standards, supported by zero-delay supply operations from Patna ROC &amp; Navi Mumbai corporate hubs.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- OUR PRODUCTS SECTION -->
+<section class="section section-alt" id="portfolio" style="padding:56px 0 !important;">
   <div class="container-xl">
     <div class="section-head">
-      <h2>Full portfolio</h2>
+      <h2>Our Products</h2>
     </div>
 
     <!-- Category Filter Tabs -->
     <div class="portfolio-filter-bar">
-      <button type="button" class="portfolio-filter-btn active" data-filter="all">All Products (7)</button>
+      <button type="button" class="portfolio-filter-btn active" data-filter="all">All Products (8)</button>
       <button type="button" class="portfolio-filter-btn" data-filter="nutrition">Parenteral &amp; Oral Nutrition</button>
       <button type="button" class="portfolio-filter-btn" data-filter="minerals">Trace Elements &amp; Iron</button>
       <button type="button" class="portfolio-filter-btn" data-filter="volume">Plasma Expander</button>
@@ -165,7 +212,7 @@ include 'includes/header.php';
         <a href="product-aminosky.php" class="p-card">
           <div class="p-card-img-wrapper">
             <span class="p-card-cat-badge">Parenteral Nutrition</span>
-            <img src="assets/img/aminosky-1.jpg" alt="Aminosky-10%">
+            <img src="assets/img/product/product-1.jpeg" alt="Aminosky-10%">
           </div>
           <div class="p-card-body">
             <div class="p-card-title">
@@ -191,7 +238,7 @@ include 'includes/header.php';
         <a href="product-glutasky.php" class="p-card">
           <div class="p-card-img-wrapper">
             <span class="p-card-cat-badge">Parenteral Nutrition</span>
-            <img src="assets/img/glutasky-1.jpg" alt="Glutasky">
+            <img src="assets/img/product/product-2.jpeg" alt="Glutasky">
           </div>
           <div class="p-card-body">
             <div class="p-card-title">
@@ -243,7 +290,7 @@ include 'includes/header.php';
         <a href="product-zincflow.php" class="p-card">
           <div class="p-card-img-wrapper">
             <span class="p-card-cat-badge">Trace Element</span>
-            <img src="assets/img/zincflow-1.jpg" alt="ZincFlow">
+            <img src="assets/img/product/product-5.jpeg" alt="ZincFlow">
           </div>
           <div class="p-card-body">
             <div class="p-card-title">
@@ -269,7 +316,7 @@ include 'includes/header.php';
         <a href="product-ferric-cm.php" class="p-card">
           <div class="p-card-img-wrapper">
             <span class="p-card-cat-badge">Iron Therapy</span>
-            <img src="assets/img/ferriccm-1.jpg" alt="Ferric-CM">
+            <img src="assets/img/product/product-3.jpeg" alt="Ferric-CM">
           </div>
           <div class="p-card-body">
             <div class="p-card-title">
@@ -316,18 +363,18 @@ include 'includes/header.php';
         </a>
       </div>
 
-      <!-- Touch-Med -->
+      <!-- Touch-Med M-100 -->
       <div class="p-card-item" data-category="surgical">
         <a href="product-touch-med.php" class="p-card">
           <div class="p-card-img-wrapper">
             <span class="p-card-cat-badge">Surgical Consumables</span>
-            <img src="assets/img/touchmed-100pcs.jpg" alt="Touch-Med">
+            <img src="assets/img/touchmed-100pcs.jpg" alt="Touch-Med M-100">
           </div>
           <div class="p-card-body">
             <div class="p-card-title">
-              <span>Touch-Med</span>
+              <span>Touch-Med M-100</span>
             </div>
-            <p class="p-card-generic">Nitrile examination gloves (M 100pcs box / G30 retail pack)</p>
+            <p class="p-card-generic">Nitrile examination gloves (M 100pcs hospital box presentation)</p>
             <ul class="p-card-uses">
               <li>Powder-free &amp; Latex-free, AQL 1.5</li>
               <li>Fingertip textured &amp; ambidextrous</li>
@@ -335,12 +382,100 @@ include 'includes/header.php';
             </ul>
             <div class="p-card-footer">
               <span class="p-card-link-btn">View Details &#8594;</span>
-              <span onclick="event.preventDefault(); window.open('https://wa.me/919304827152?text=Hello,%20I%20have%20an%20inquiry%20about%20Touch-Med', '_blank')" class="p-card-wa-btn">Enquire 💬</span>
+              <span onclick="event.preventDefault(); window.open('https://wa.me/919304827152?text=Hello,%20I%20have%20an%20inquiry%20about%20Touch-Med%20M-100', '_blank')" class="p-card-wa-btn">Enquire 💬</span>
             </div>
           </div>
         </a>
       </div>
 
+      <!-- Touch-Med G30 Retail Pack -->
+      <div class="p-card-item" data-category="surgical">
+        <a href="product-touch-med-g30.php" class="p-card">
+          <div class="p-card-img-wrapper">
+            <span class="p-card-cat-badge">Retail Consumables</span>
+            <img src="assets/img/touchmed-g30.jpg" alt="Touch-Med G30">
+          </div>
+          <div class="p-card-body">
+            <div class="p-card-title">
+              <span>Touch-Med G30 Pack</span>
+            </div>
+            <p class="p-card-generic">Nitrile examination gloves (G30 count retail dispenser pack)</p>
+            <ul class="p-card-uses">
+              <li>Inner polymer coating for easy donning</li>
+              <li>Ideal for pharmacy retail &amp; OPD clinics</li>
+              <li>Powder-free &amp; AQL 1.5 quality inspected</li>
+            </ul>
+            <div class="p-card-footer">
+              <span class="p-card-link-btn">View Details &#8594;</span>
+              <span onclick="event.preventDefault(); window.open('https://wa.me/919304827152?text=Hello,%20I%20have%20an%20inquiry%20about%20Touch-Med%20G30', '_blank')" class="p-card-wa-btn">Enquire 💬</span>
+            </div>
+          </div>
+        </a>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- CLINICAL FORMULATION & SAFETY COMMITMENTS -->
+<section class="section compact-safety-section" style="background:#ffffff; border-top:1px solid var(--line); border-bottom:1px solid var(--line);">
+  <div class="container-xl">
+    <div class="section-head mb-3 pb-2">
+      <h2>Formulation &amp; Clinical Safety Standards</h2>
+    </div>
+    <div class="row g-3">
+      <div class="col-md-4">
+        <div class="safety-card p-3 border rounded-3 h-100 bg-light-subtle">
+          <div class="d-flex align-items-center gap-2 mb-2">
+            <span class="badge bg-danger-subtle text-danger fw-bold">100% SUGAR-FREE SAFETY</span>
+          </div>
+          <h5 class="fw-bold text-navy mb-1" style="font-size:1.02rem;">Without Sorbitol or Xylitol</h5>
+          <p class="text-muted small mb-0">Our parenteral amino acid infusions (Aminosky-10%) strictly avoid Sorbitol and Xylitol to prevent IV toxic side-effects and renal failure risks.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="safety-card p-3 border rounded-3 h-100 bg-light-subtle">
+          <div class="d-flex align-items-center gap-2 mb-2">
+            <span class="badge bg-primary-subtle text-primary fw-bold">3RD GEN THERAPEUTICS</span>
+          </div>
+          <h5 class="fw-bold text-navy mb-1" style="font-size:1.02rem;">Advanced Blood &amp; Iron Care</h5>
+          <p class="text-muted small mb-0">Ferric-CM offers 3rd gen parenteral iron boosting Hb by 4.4 g/dL, while Tetravan provides 3rd gen safest colloid for up to 1L blood loss replacement.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="safety-card p-3 border rounded-3 h-100 bg-light-subtle">
+          <div class="d-flex align-items-center gap-2 mb-2">
+            <span class="badge bg-success-subtle text-success fw-bold">ICU &amp; SURGICAL FOCUS</span>
+          </div>
+          <h5 class="fw-bold text-navy mb-1" style="font-size:1.02rem;">ESPEN 2022 Protocol Aligned</h5>
+          <p class="text-muted small mb-0">ZincFlow &amp; Glutasky deliver essential trace elements and L-glutamine dipeptides from Day 1 of parenteral nutrition for ICU &amp; burn patients.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKY-BLUE OUR VISION & MISSION SECTION -->
+<section class="section skyblue-vision-section">
+  <div class="container-xl">
+    <div class="section-head mb-4 text-center border-0">
+      <h2 style="color:#ffffff !important;">Our Vision &amp; Clinical Mission</h2>
+    </div>
+    <div class="row g-4">
+      <div class="col-md-6">
+        <div class="skyblue-vision-card h-100">
+          <div class="vision-icon">🌟</div>
+          <h4>Our Vision</h4>
+          <p>To be India's most trusted pharmaceutical and surgical marketing platform, setting benchmark standards in ESPEN-aligned parenteral nutrition, 3rd generation blood therapeutics, and certified clinical protection for hospital critical care.</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="skyblue-vision-card h-100">
+          <div class="vision-icon">🚀</div>
+          <h4>Our Mission</h4>
+          <p>Ensuring zero-delay delivery of international-grade clinical products to ICUs, surgical teams, and hospital procurement departments across Patna, Bihar &amp; Pan-India with uncompromised safety, dedication, and clinical excellence.</p>
+        </div>
+      </div>
     </div>
   </div>
 </section>
@@ -398,6 +533,76 @@ document.addEventListener('DOMContentLoaded', function() {
           <div class="cat-pill" style="margin-bottom:0.8rem;">Reliable Supply</div>
           <h4>Patna &amp; Navi Mumbai Logistics</h4>
           <p>Backed by corporate offices in Kalamboli (Navi Mumbai) and registered offices in Rukanpura (Patna), we ensure swift procurement cycles, stockist support, and last-mile hospital deliveries.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKY-BLUE PAN-INDIA NETWORK & SUPPLY HUBS SECTION -->
+<section class="section skyblue-network-section">
+  <div class="container-xl">
+    <div class="section-head mb-3 pb-2">
+      <h2>Pan-India Supply Network &amp; Logistics Hubs</h2>
+    </div>
+    <div class="row g-3">
+      <div class="col-md-4">
+        <div class="network-hub-card h-100">
+          <span class="network-hub-badge">REGISTERED OFFICE</span>
+          <h5 class="fw-bold text-navy mb-1" style="font-size:1.02rem;">Patna ROC (Bihar Hub)</h5>
+          <p class="text-muted small mb-0">Rukanpura, Bailey Road, Patna. Central dispatch hub catering to hospital stockists and medical centers across Eastern India.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="network-hub-card h-100">
+          <span class="network-hub-badge">CORPORATE OFFICE</span>
+          <h5 class="fw-bold text-navy mb-1" style="font-size:1.02rem;">Navi Mumbai Corporate Office</h5>
+          <p class="text-muted small mb-0">Kalamboli, Navi Mumbai. Corporate logistics, quality assurance, and import coordination center.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="network-hub-card h-100">
+          <span class="network-hub-badge">HOSPITAL NETWORK</span>
+          <h5 class="fw-bold text-navy mb-1" style="font-size:1.02rem;">Multispecialty &amp; ICU Supply</h5>
+          <p class="text-muted small mb-0">Supplying certified parenteral formulations and Touch-Med gloves to government &amp; leading private hospital networks.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- CORE MISSION & VALUES STRIP -->
+<section class="section compact-values-section" style="background:#eef6fc; border-top:1px solid var(--line);">
+  <div class="container-xl">
+    <div class="row align-items-center g-4">
+      <div class="col-lg-4 text-center text-lg-start">
+        <span class="eyebrow" style="font-size:0.75rem;">Company Philosophy</span>
+        <h3 class="fw-bold text-navy mb-2" style="font-size:1.35rem;">Always HEALTH FIRST</h3>
+        <p class="text-muted small mb-0">Committed to healthcare excellence with dedication, innovation, and compassion for Indian hospital care.</p>
+      </div>
+      <div class="col-lg-8">
+        <div class="row g-3 text-center">
+          <div class="col-12 col-md-4">
+            <div class="p-3 p-md-4 bg-white border rounded-3 shadow-sm h-100">
+              <div class="fs-3 mb-1">🎯</div>
+              <strong class="d-block text-navy fw-bold mb-1" style="font-size:0.95rem;">Dedication</strong>
+              <span class="text-muted" style="font-size:0.8rem; line-height:1.4;">Supplying critical ICU &amp; surgical therapeutics pan-India.</span>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="p-3 p-md-4 bg-white border rounded-3 shadow-sm h-100">
+              <div class="fs-3 mb-1">💡</div>
+              <strong class="d-block text-navy fw-bold mb-1" style="font-size:0.95rem;">Innovation</strong>
+              <span class="text-muted" style="font-size:0.8rem; line-height:1.4;">Formulating 3rd gen ESPEN-aligned clinical solutions.</span>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="p-3 p-md-4 bg-white border rounded-3 shadow-sm h-100">
+              <div class="fs-3 mb-1">❤️</div>
+              <strong class="d-block text-navy fw-bold mb-1" style="font-size:0.95rem;">Compassion</strong>
+              <span class="text-muted" style="font-size:0.8rem; line-height:1.4;">Dedicated to doctor &amp; patient recovery support.</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
