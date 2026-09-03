@@ -27,7 +27,7 @@ include 'includes/header.php';
       </div>
       <div class="col-lg-5">
         <div class="p-3 bg-white border rounded-3 shadow-lg text-center" style="max-width:380px; margin:0 auto;">
-          <img src="assets/img/product/product-3.jpeg?v=<?php echo $asset_ver; ?>" alt="Ferric-CM product packaging" style="max-height:220px; object-fit:contain;" class="img-fluid">
+          <img src="assets/img/product/product-1.jpeg?v=<?php echo $asset_ver; ?>" alt="Ferric-CM product packaging" style="height:220px; width:100%; object-fit:cover; border-radius:6px;" class="img-fluid">
           <div class="mt-2 text-muted fw-bold small">Product Packaging — Ferric-CM (10 ml Vial)</div>
         </div>
       </div>
@@ -120,7 +120,7 @@ include 'includes/header.php';
 
         <!-- Packaging Graphic -->
         <div class="p-3 bg-white border rounded-3 shadow-sm text-center">
-          <img src="assets/img/ferriccm-1.jpg" alt="Ferric-CM — clinical detail sheet" class="img-fluid rounded mb-2" style="max-height:220px; object-fit:contain;">
+          <img src="assets/img/ferriccm-1.jpg" alt="Ferric-CM — clinical detail sheet" class="img-fluid rounded mb-2" style="height:220px; width:100%; object-fit:cover; border-radius:6px;">
           <div class="text-muted small fw-bold">Ferric-CM Technical Specification Sheet</div>
         </div>
 

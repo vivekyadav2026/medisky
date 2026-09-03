@@ -27,7 +27,7 @@ include 'includes/header.php';
       </div>
       <div class="col-lg-5">
         <div class="p-3 bg-white border rounded-3 shadow-lg text-center" style="max-width:380px; margin:0 auto;">
-          <img src="assets/img/product/product-1.jpeg?v=<?php echo $asset_ver; ?>" alt="Aminosky-10% product packaging" style="max-height:220px; object-fit:contain;" class="img-fluid">
+          <img src="assets/img/product/product-3.jpeg?v=<?php echo $asset_ver; ?>" alt="Aminosky-10% product packaging" style="height:220px; width:100%; object-fit:cover; border-radius:6px;" class="img-fluid">
           <div class="mt-2 text-muted fw-bold small">Product Packaging — Aminosky-10% (250 ml)</div>
         </div>
       </div>
@@ -149,7 +149,7 @@ include 'includes/header.php';
 
         <!-- Packaging Detail Graphic -->
         <div class="p-3 bg-white border rounded-3 shadow-sm text-center">
-          <img src="assets/img/aminosky-2.jpg" alt="Aminosky-10% — clinical detail sheet" class="img-fluid rounded mb-2" style="max-height:220px; object-fit:contain;">
+          <img src="assets/img/aminosky-2.jpg" alt="Aminosky-10% — clinical detail sheet" class="img-fluid rounded mb-2" style="height:220px; width:100%; object-fit:cover; border-radius:6px;">
           <div class="text-muted small fw-bold">Aminosky-10% Technical Specification Sheet</div>
         </div>
 

@@ -27,7 +27,7 @@ include 'includes/header.php';
       </div>
       <div class="col-lg-5">
         <div class="p-3 bg-white border rounded-3 shadow-lg text-center" style="max-width:380px; margin:0 auto;">
-          <img src="assets/img/lglutasky-box.jpg?v=<?php echo $asset_ver; ?>" alt="L-Glutasky Plus product packaging" style="max-height:220px; object-fit:contain;" class="img-fluid">
+          <img src="assets/img/lglutasky-box.jpg?v=<?php echo $asset_ver; ?>" alt="L-Glutasky Plus product packaging" style="height:220px; width:100%; object-fit:cover; border-radius:6px;" class="img-fluid">
           <div class="mt-2 text-muted fw-bold small">Product Packaging — L-Glutasky Plus (10x15g Box)</div>
         </div>
       </div>

@@ -27,7 +27,7 @@ include 'includes/header.php';
       </div>
       <div class="col-lg-5">
         <div class="p-3 bg-white border rounded-3 shadow-lg text-center" style="max-width:380px; margin:0 auto;">
-          <img src="assets/img/tetravan-box.jpg?v=<?php echo $asset_ver; ?>" alt="Tetravan product packaging" style="max-height:220px; object-fit:contain;" class="img-fluid">
+          <img src="assets/img/tetravan-box.jpg?v=<?php echo $asset_ver; ?>" alt="Tetravan product packaging" style="height:220px; width:100%; object-fit:cover; border-radius:6px;" class="img-fluid">
           <div class="mt-2 text-muted fw-bold small">Product Packaging — Tetravan (500 ml Container)</div>
         </div>
       </div>

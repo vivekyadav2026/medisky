@@ -27,7 +27,7 @@ include 'includes/header.php';
       </div>
       <div class="col-lg-5">
         <div class="p-3 bg-white border rounded-3 shadow-lg text-center" style="max-width:380px; margin:0 auto;">
-          <img src="assets/img/product/product-2.jpeg?v=<?php echo $asset_ver; ?>" alt="Glutasky product packaging" style="max-height:220px; object-fit:contain;" class="img-fluid">
+          <img src="assets/img/product/product-7.jpeg?v=<?php echo $asset_ver; ?>" alt="Glutasky product packaging" style="height:220px; width:100%; object-fit:cover; border-radius:6px;" class="img-fluid">
           <div class="mt-2 text-muted fw-bold small">Product Packaging — Glutasky 20% (50 ml)</div>
         </div>
       </div>
@@ -121,7 +121,7 @@ include 'includes/header.php';
 
         <!-- Packaging Graphic -->
         <div class="p-3 bg-white border rounded-3 shadow-sm text-center">
-          <img src="assets/img/glutasky-1.jpg" alt="Glutasky 20% — clinical detail sheet" class="img-fluid rounded mb-2" style="max-height:220px; object-fit:contain;">
+          <img src="assets/img/glutasky-1.jpg" alt="Glutasky 20% — clinical detail sheet" class="img-fluid rounded mb-2" style="height:220px; width:100%; object-fit:cover; border-radius:6px;">
           <div class="text-muted small fw-bold">Glutasky 20% Technical Specification Sheet</div>
         </div>
 

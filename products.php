@@ -57,7 +57,7 @@ include 'includes/header.php';
         <a href="product-aminosky.php" class="p-card">
           <div class="p-card-img-wrapper">
             <span class="p-card-cat-badge">Parenteral Nutrition</span>
-            <img src="assets/img/product/product-1.jpeg?v=<?php echo $asset_ver; ?>" alt="Aminosky-10%">
+            <img src="assets/img/product/product-3.jpeg?v=<?php echo $asset_ver; ?>" alt="Aminosky-10%">
           </div>
           <div class="p-card-body">
             <div class="p-card-title">
@@ -83,7 +83,7 @@ include 'includes/header.php';
         <a href="product-glutasky.php" class="p-card">
           <div class="p-card-img-wrapper">
             <span class="p-card-cat-badge">Parenteral Nutrition</span>
-            <img src="assets/img/product/product-2.jpeg?v=<?php echo $asset_ver; ?>" alt="Glutasky">
+            <img src="assets/img/product/product-7.jpeg?v=<?php echo $asset_ver; ?>" alt="Glutasky">
           </div>
           <div class="p-card-body">
             <div class="p-card-title">
@@ -135,7 +135,7 @@ include 'includes/header.php';
         <a href="product-zincflow.php" class="p-card">
           <div class="p-card-img-wrapper">
             <span class="p-card-cat-badge">Trace Element</span>
-            <img src="assets/img/product/product-5.jpeg?v=<?php echo $asset_ver; ?>" alt="ZincFlow">
+            <img src="assets/img/product/product-8.jpeg?v=<?php echo $asset_ver; ?>" alt="ZincFlow">
           </div>
           <div class="p-card-body">
             <div class="p-card-title">
@@ -161,7 +161,7 @@ include 'includes/header.php';
         <a href="product-ferric-cm.php" class="p-card">
           <div class="p-card-img-wrapper">
             <span class="p-card-cat-badge">Iron Therapy</span>
-            <img src="assets/img/product/product-3.jpeg?v=<?php echo $asset_ver; ?>" alt="Ferric-CM">
+            <img src="assets/img/product/product-1.jpeg?v=<?php echo $asset_ver; ?>" alt="Ferric-CM">
           </div>
           <div class="p-card-body">
             <div class="p-card-title">

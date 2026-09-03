@@ -71,6 +71,49 @@
   <span class="wa-text">WhatsApp Us</span>
 </a>
 
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const productImages = document.querySelectorAll(".hero .bg-white img.img-fluid");
+  productImages.forEach(img => {
+    // Create wrapper for clipping
+    const wrapper = document.createElement("div");
+    wrapper.style.overflow = "hidden";
+    wrapper.style.borderRadius = "8px";
+    wrapper.style.display = "inline-block";
+    wrapper.style.position = "relative";
+    wrapper.style.cursor = "crosshair";
+    
+    // Wrap image
+    img.parentNode.insertBefore(wrapper, img);
+    wrapper.appendChild(img);
+    
+    // Set transition for smooth return
+    img.style.transition = "transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)";
+    
+    wrapper.addEventListener("mousemove", function(e) {
+      const rect = wrapper.getBoundingClientRect();
+      const x = ((e.clientX - rect.left) / rect.width) * 100;
+      const y = ((e.clientY - rect.top) / rect.height) * 100;
+      img.style.transformOrigin = `${x}% ${y}%`;
+      img.style.transform = "scale(2.4)";
+      // Remove transition during movement for zero latency tracking
+      img.style.transition = "none"; 
+    });
+    
+    wrapper.addEventListener("mouseleave", function() {
+      // Restore transition for smooth zoom out
+      img.style.transition = "transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)";
+      img.style.transformOrigin = "center center";
+      img.style.transform = "scale(1)";
+    });
+    
+    wrapper.addEventListener("mouseenter", function() {
+      img.style.transition = "transform 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)";
+    });
+  });
+});
+</script>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
