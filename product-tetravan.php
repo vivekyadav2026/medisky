@@ -119,6 +119,12 @@ include 'includes/header.php';
           <a href="https://wa.me/919304827152?text=Hello,%20I%20want%20to%20enquire%20about%20hospital%20supply%20for%20Tetravan" target="_blank" rel="noopener" class="btn-brand d-block py-2" style="background:#25D366; color:#ffffff; border-color:#25D366;">Enquire on WhatsApp 💬</a>
         </div>
 
+        <!-- Packaging Graphic -->
+        <div class="p-3 bg-white border rounded-3 shadow-sm text-center">
+          <img src="assets/img/pack-tetravan.jpg?v=<?php echo $asset_ver; ?>" alt="Tetravan 500 ml IV Infusion Box and Bottle" class="img-fluid rounded mb-2" style="max-height:240px; object-fit:contain; border-radius:6px;">
+          <div class="text-muted small fw-bold">Tetravan (6%) 500 ml Container &amp; Bottle Packaging</div>
+        </div>
+
       </div>
     </div>
   </div>

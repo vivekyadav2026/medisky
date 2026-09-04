@@ -118,6 +118,12 @@ include 'includes/header.php';
           <a href="https://wa.me/919304827152?text=Hello,%20I%20want%20to%20enquire%20about%20hospital%20supply%20for%20L-Glutasky%20Plus" target="_blank" rel="noopener" class="btn-brand d-block py-2" style="background:#25D366; color:#ffffff; border-color:#25D366;">Enquire on WhatsApp 💬</a>
         </div>
 
+        <!-- Packaging Graphic -->
+        <div class="p-3 bg-white border rounded-3 shadow-sm text-center">
+          <img src="assets/img/pack-lglutasky.jpg?v=<?php echo $asset_ver; ?>" alt="L-Glutasky Plus Box and Sachet Packaging" class="img-fluid rounded mb-2" style="max-height:240px; object-fit:contain; border-radius:6px;">
+          <div class="text-muted small fw-bold">L-Glutasky Plus (10x15g Box &amp; Sachet) Packaging</div>
+        </div>
+
       </div>
     </div>
   </div>
