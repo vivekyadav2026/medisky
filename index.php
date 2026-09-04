@@ -212,7 +212,7 @@ include 'includes/header.php';
         <a href="product-aminosky.php" class="p-card">
           <div class="p-card-img-wrapper">
             <span class="p-card-cat-badge">Parenteral Nutrition</span>
-            <img src="assets/img/product/product-3.jpeg" alt="Aminosky-10%">
+            <img src="assets/img/product/product-3.jpeg?v=<?php echo $asset_ver; ?>" alt="Aminosky-10%">
           </div>
           <div class="p-card-body">
             <div class="p-card-title">
@@ -238,7 +238,7 @@ include 'includes/header.php';
         <a href="product-glutasky.php" class="p-card">
           <div class="p-card-img-wrapper">
             <span class="p-card-cat-badge">Parenteral Nutrition</span>
-            <img src="assets/img/product/product-7.jpeg" alt="Glutasky">
+            <img src="assets/img/product/product-7.jpeg?v=<?php echo $asset_ver; ?>" alt="Glutasky">
           </div>
           <div class="p-card-body">
             <div class="p-card-title">
@@ -264,7 +264,7 @@ include 'includes/header.php';
         <a href="product-lglutasky-plus.php" class="p-card">
           <div class="p-card-img-wrapper">
             <span class="p-card-cat-badge">Oral Nutrition Sachet</span>
-            <img src="assets/img/lglutasky-box.jpg" alt="L-Glutasky Plus">
+            <img src="assets/img/lglutasky-box.jpg?v=<?php echo $asset_ver; ?>" alt="L-Glutasky Plus">
           </div>
           <div class="p-card-body">
             <div class="p-card-title">
@@ -290,7 +290,7 @@ include 'includes/header.php';
         <a href="product-zincflow.php" class="p-card">
           <div class="p-card-img-wrapper">
             <span class="p-card-cat-badge">Trace Element</span>
-            <img src="assets/img/product/product-8.jpeg" alt="ZincFlow">
+            <img src="assets/img/product/product-8.jpeg?v=<?php echo $asset_ver; ?>" alt="ZincFlow">
           </div>
           <div class="p-card-body">
             <div class="p-card-title">
@@ -316,7 +316,7 @@ include 'includes/header.php';
         <a href="product-ferric-cm.php" class="p-card">
           <div class="p-card-img-wrapper">
             <span class="p-card-cat-badge">Iron Therapy</span>
-            <img src="assets/img/product/product-1.jpeg" alt="Ferric-CM">
+            <img src="assets/img/product/product-1.jpeg?v=<?php echo $asset_ver; ?>" alt="Ferric-CM">
           </div>
           <div class="p-card-body">
             <div class="p-card-title">
@@ -342,7 +342,7 @@ include 'includes/header.php';
         <a href="product-tetravan.php" class="p-card">
           <div class="p-card-img-wrapper">
             <span class="p-card-cat-badge">Plasma Expander</span>
-            <img src="assets/img/tetravan-box.jpg" alt="Tetravan">
+            <img src="assets/img/tetravan-box.jpg?v=<?php echo $asset_ver; ?>" alt="Tetravan">
           </div>
           <div class="p-card-body">
             <div class="p-card-title">
@@ -368,7 +368,7 @@ include 'includes/header.php';
         <a href="product-touch-med.php" class="p-card">
           <div class="p-card-img-wrapper">
             <span class="p-card-cat-badge">Surgical Consumables</span>
-            <img src="assets/img/touchmed-100pcs.jpg" alt="Touch-Med M-100">
+            <img src="assets/img/touchmed-100pcs.jpg?v=<?php echo $asset_ver; ?>" alt="Touch-Med M-100">
           </div>
           <div class="p-card-body">
             <div class="p-card-title">
@@ -393,7 +393,7 @@ include 'includes/header.php';
         <a href="product-touch-med-g30.php" class="p-card">
           <div class="p-card-img-wrapper">
             <span class="p-card-cat-badge">Retail Consumables</span>
-            <img src="assets/img/touchmed-g30.jpg" alt="Touch-Med G30">
+            <img src="assets/img/touchmed-g30.jpg?v=<?php echo $asset_ver; ?>" alt="Touch-Med G30">
           </div>
           <div class="p-card-body">
             <div class="p-card-title">
