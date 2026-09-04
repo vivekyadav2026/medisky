@@ -59,6 +59,7 @@
     <div class="d-flex flex-wrap justify-content-between align-items-center gap-3 foot-legal">
       <span>&copy; <?php echo date('Y'); ?> Medisky Lifesciences Private Limited. CIN: U85100BR2015PTC024198 (ROC Patna).</span>
       <span>Information intended for healthcare professionals &amp; hospital procurement.</span>
+      <span>Designed &amp; Developed by <a href="https://foundida.com" target="_blank" rel="noopener" style="font-weight: 600; color: #40C4FF;">Foundida</a></span>
     </div>
   </div>
 </footer>
